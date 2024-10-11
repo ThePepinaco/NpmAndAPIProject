@@ -1,0 +1,39 @@
+2024-10-08 16:30:00.024 [info] [main] Log level: Info
+2024-10-08 16:30:00.024 [info] [main] Validating found git in: "git"
+2024-10-08 16:30:00.024 [info] [main] Using git "2.46.0" from "git"
+2024-10-08 16:30:00.024 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-08 16:30:00.024 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-08 16:30:00.024 [info] > git rev-parse --git-dir --git-common-dir [136ms]
+2024-10-08 16:30:00.024 [info] [Model][openRepository] Opened repository: /workspace/boilerplate-express
+2024-10-08 16:30:00.024 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-08 16:30:00.024 [info] > git config --get commit.template [11ms]
+2024-10-08 16:30:00.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-08 16:30:00.024 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-08 16:30:00.024 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-08 16:30:00.024 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-express/.git/refs/remotes/origin/main'
+2024-10-08 16:30:00.024 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-08 16:30:00.024 [info] > git status -z -uall [2ms]
+2024-10-08 16:30:00.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-10-08 16:30:00.024 [info] > git config --get commit.template [4ms]
+2024-10-08 16:30:00.024 [info] > git config --local branch.main.vscode-merge-base [10ms]
+2024-10-08 16:30:00.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-08 16:30:00.024 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/workspace/boilerplate-express/.git/refs/remotes/origin/main'
+2024-10-08 16:30:00.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-10-08 16:30:00.024 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-10-08 16:30:00.024 [info] > git status -z -uall [117ms]
+2024-10-08 16:30:00.024 [info] > git merge-base refs/heads/main refs/remotes/origin/main [122ms]
+2024-10-08 16:30:00.024 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-10-08 16:30:00.024 [info] > git diff --name-status -z --diff-filter=ADMR 4a635b463dcdeb2eb0104d474ca455b385b7a43d...refs/remotes/origin/main [7ms]
+2024-10-08 16:30:00.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-08 16:30:00.025 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-08 16:30:00.064 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [35ms]
+2024-10-08 16:30:00.526 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-08 16:30:02.391 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-10-08 16:30:02.391 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-08 16:30:03.686 [info] > git show --textconv :process.env [4ms]
+2024-10-08 16:30:03.688 [info] > git ls-files --stage -- /workspace/boilerplate-express/process.env [1ms]
+2024-10-08 16:30:24.863 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full 4a635b463dcdeb2eb0104d474ca455b385b7a43d [15ms]
+2024-10-08 16:30:25.183 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full 4a635b463dcdeb2eb0104d474ca455b385b7a43d [9ms]
+2024-10-08 16:30:42.331 [info] > git show --textconv :myApp.js [5ms]
+2024-10-08 16:30:42.333 [info] > git ls-files --stage -- /workspace/boilerplate-express/myApp.js [2ms]
+2024-10-08 16:30:42.338 [info] > git cat-file -s ac2ac9b7da2091af8bc4ffeecd625e57b727e0f8 [2ms]

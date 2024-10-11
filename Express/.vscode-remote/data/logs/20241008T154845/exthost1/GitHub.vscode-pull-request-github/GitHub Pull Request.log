@@ -1,0 +1,13 @@
+2024-10-08 16:30:00.167 [warning] /home/gitpod/.ssh/config: ENOENT: no such file or directory, open '/home/gitpod/.ssh/config'
+2024-10-08 16:30:00.167 [info] Activation> Extension version: 0.98.0
+2024-10-08 16:30:02.226 [info] Looking for git repository
+2024-10-08 16:30:02.226 [info] Found 0 repositories during activation
+2024-10-08 16:30:02.226 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-08 16:30:02.231 [info] Registering git provider
+2024-10-08 16:30:02.231 [info] Review+0> Validate state in progress
+2024-10-08 16:30:02.231 [info] Review+0> Validating state...
+2024-10-08 16:30:02.381 [info] Found GitHub remote for folder /workspace/boilerplate-express
+2024-10-08 16:30:02.383 [info] Trying to use globalState for assignableUsers.
+2024-10-08 16:30:02.391 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-08 16:30:02.392 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-08 16:30:02.533 [info] GlobalState does not exist for assignableUsers.
